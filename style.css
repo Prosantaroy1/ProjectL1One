@@ -10,7 +10,7 @@
     margin: auto;
 }
 
-/* navber style */
+/*------------- navber style---------- */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@
     font-weight: 500;
 }
 
-/* banner style */
+/*------------ banner style-------------- */
 .banner-conatiner {
     background-image: url(./assets/Hero-bg.png);
     background-position: center;
@@ -58,12 +58,65 @@
     text-align: center;
     font-size: 16px;
 }
-.banner-conatiner .btn{
-   background-color: black;
-   color: white;
-   border: 1px solid black;
-   padding: 8px 12px;
-   font-size: 20px;
-   border-radius: 8px;
-   font-weight: 500;
+
+.banner-conatiner .btn {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 8px 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-weight: 500;
 }
+
+/*------- why development-----------  */
+.whyDev-conatiner {
+    margin-top: 78px;
+}
+
+.dev-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dev-description {
+    padding: 14px 0px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* dev box content */
+.dev-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 32px;
+}
+.dev-left-title {
+    font-size: 24px;
+    color: #0D1321;
+    font-weight: 700;
+}
+
+.dev-left-description {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 14px 0px;
+    color: #0D1321;
+}
+.dev-left .btn{
+    color: black;
+    border: 1px solid black;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dev-two{
+    display: flex;
+    justify-content: start;
+    gap: 72px;
+    align-items: center;
+    padding-top: 32px;
+}
+/* -------My Inspiration style-------- */
