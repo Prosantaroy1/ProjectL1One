@@ -93,6 +93,7 @@
     align-items: center;
     padding-top: 32px;
 }
+
 .dev-left-title {
     font-size: 24px;
     color: #0D1321;
@@ -105,18 +106,35 @@
     padding: 14px 0px;
     color: #0D1321;
 }
-.dev-left .btn{
+
+.dev-left .btn {
     color: black;
     border: 1px solid black;
     padding: 8px 10px;
     font-size: 16px;
     font-weight: 600;
 }
-.dev-two{
+
+.dev-two {
     display: flex;
     justify-content: start;
     gap: 72px;
     align-items: center;
     padding-top: 32px;
 }
+
 /* -------My Inspiration style-------- */
+.inspiration-section {
+    margin-top: 110px;
+    margin-bottom: 14px;
+}
+
+.video-part {
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 8px;
+    border: 2px solid rgb(221, 218, 211);
+    padding: 26px;
+    margin-top: 28px;
+}
